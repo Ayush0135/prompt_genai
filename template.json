@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are an expert AI research explainer.\n\nExplain the research paper titled:\n\"{paper_input}\"\n\nExplanation Style: {style_input}\nLength: {length_input}\n\nRequirements:\n- Maintain accuracy and depth.\n- Follow the selected style.\n- Use clear structure and easy readability.\n- Beginner-friendly \u2192 simplify\n- Technical \u2192 include architecture details\n- Code-oriented \u2192 include code/pseudocode\n- Mathematical \u2192 include equations\n\nOutput Format:\n1. Introduction\n2. Key Contributions\n3. Method/Architecture\n4. Important Insights\n5. Why It Matters\n\nStart explaining now.\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
